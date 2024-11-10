@@ -39,7 +39,7 @@ class Solution2 {
                 vis[ch - 'a'] = true;
                 sb.append(ch);
             }
-            num[ch - 'a'] -= 1;
+            num[ch - 'a'] -= 1;//修改一下
         }
         return sb.toString();
     }
